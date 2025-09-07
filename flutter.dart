@@ -141,7 +141,7 @@ class _ConversionHomeState extends State<ConversionHome> {
             ),
             const SizedBox(height: 12),
 
-            // From unit
+            // From Unit
             DropdownButtonFormField<String>(
               value: fromUnit,
               decoration: const InputDecoration(labelText: "From"),
@@ -194,3 +194,4 @@ class _ConversionHomeState extends State<ConversionHome> {
     );
   }
 }
+
